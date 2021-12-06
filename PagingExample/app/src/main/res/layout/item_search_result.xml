@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_8"
+    android:background="@drawable/background_parent_layout"
+    android:orientation="vertical"
+    android:padding="@dimen/space_20">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/space_160"
+        android:layout_height="@dimen/space_200"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold"
+        tools:text="Rick" />
+
+    <TextView
+        android:id="@+id/textViewSpecies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_medium"
+        tools:text="Human" />
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="Male" />
+
+</LinearLayout>
