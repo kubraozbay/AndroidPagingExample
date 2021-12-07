@@ -1,7 +1,7 @@
 # AndroidPagingExample
-MVVM
-Dagger Hilt
-Retrofit2
-Coroutines
-Pagination
-Glide
+- MVVM
+- Dagger Hilt
+- Retrofit2
+- Coroutines
+- Pagination
+- Glide
